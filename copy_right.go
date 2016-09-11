@@ -5,7 +5,7 @@ import (
 )
 
 var (
-	copyRight = `CopyRight @Ally Dale(vipally@gmail.com) 2016
+	copyRight = `CopyRight @Ally Dale 2016
     Author  : Ally Dale(vipally@gmail.com)
     Blog    : http://blog.csdn.net/vipally
     Site    : https://github.com/vipally
