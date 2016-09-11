@@ -1,6 +1,14 @@
+//    CopyRight @Ally Dale 2016
+//    Author  : Ally Dale(vipally@gmail.com)
+//    Blog    : http://blog.csdn.net/vipally
+//    Site    : https://github.com/vipally
+
+//package cpright declaration CopyRight for vipally
 package cpright
 
 import (
+	"strings"
+
 	"github.com/vipally/cmdline"
 )
 
@@ -10,6 +18,7 @@ var (
     Blog    : http://blog.csdn.net/vipally
     Site    : https://github.com/vipally
 `
+	copyRightCode = "//    " + strings.Replace(copyRight, "\n", "\n//", 3)
 )
 
 func init() { //set copyright for vipally
@@ -19,4 +28,8 @@ func init() { //set copyright for vipally
 //get the CopyRight declaration for vipally
 func CopyRight() string {
 	return copyRight
+}
+
+func CopyRightCode() string {
+	return copyRightCode
 }
