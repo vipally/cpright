@@ -7,7 +7,7 @@
 package cpright
 
 import (
-	"strings"
+	//"strings"
 
 	"github.com/vipally/cmdline"
 )
@@ -18,7 +18,7 @@ var (
     Blog    : http://blog.csdn.net/vipally
     Site    : https://github.com/vipally
 `
-	copyRightCode = "//    " + strings.Replace(copyRight, "\n", "\n//", 3)
+	//copyRightCode = "//    " + strings.Replace(copyRight, "\n", "\n//", 3)
 )
 
 func init() { //set copyright for vipally
@@ -31,6 +31,6 @@ func CopyRight() string {
 }
 
 //get the CopyRight declaration of vipally for comment go code
-func CopyRightCode() string {
-	return copyRightCode
-}
+//func CopyRightCode() string {
+//	return copyRightCode
+//}
