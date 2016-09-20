@@ -18,10 +18,9 @@ var (
     Author  : Ally Dale(vipally@gmail.com)
     Blog    : http://blog.csdn.net/vipally
     Site    : https://github.com/vipally
-	BuildAt : <buildtime>
-	Version : <version>
+    BuildAt : <buildtime>
+    Version : <version>
 `
-	version = "1.0.0"
 )
 
 func init() { //set copyright for vipally
@@ -31,8 +30,4 @@ func init() { //set copyright for vipally
 //get the CopyRight declaration of vipally
 func CopyRight() string {
 	return copyRight
-}
-
-func Version() string {
-	return version
 }
