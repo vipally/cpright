@@ -1,4 +1,6 @@
-//    CopyRight @Ally Dale 2016
+//    CopyRight 2016 @Ally Dale. All rights reserved.
+//    Use of this source code is governed by a GPL3.0-style
+//    license that can be found in the LICENSE file.
 //    Author  : Ally Dale(vipally@gmail.com)
 //    Blog    : http://blog.csdn.net/vipally
 //    Site    : https://github.com/vipally
@@ -30,4 +32,9 @@ func init() { //set copyright for vipally
 //get the CopyRight declaration of vipally
 func CopyRight() string {
 	return copyRight
+}
+
+//add coyright file head for all inside go code files
+func AddFileHead(path string) error {
+	return nil
 }
