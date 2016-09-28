@@ -16,9 +16,9 @@ import (
 //<buildtime>
 //<thiscmd>
 //    Use of this source code is governed by a GPL3.0-style.
+//    License that can be found in the LICENSE file.
 var (
 	copyRight = `CopyRight 2016 @Ally Dale. All rights reserved.
-    License that can be found in the LICENSE file.
     Author  : Ally Dale(vipally@gmail.com)
     Blog    : http://blog.csdn.net/vipally
     Site    : https://github.com/vipally
