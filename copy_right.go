@@ -15,9 +15,9 @@ import (
 //<version>
 //<buildtime>
 //<thiscmd>
+//    Use of this source code is governed by a GPL3.0-style.
 var (
 	copyRight = `CopyRight 2016 @Ally Dale. All rights reserved.
-    Use of this source code is governed by a GPL3.0-style.
     License that can be found in the LICENSE file.
     Author  : Ally Dale(vipally@gmail.com)
     Blog    : http://blog.csdn.net/vipally
