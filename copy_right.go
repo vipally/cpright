@@ -18,7 +18,7 @@ import (
 //    Use of this source code is governed by a GPL3.0-style.
 //    License that can be found in the LICENSE file.
 var (
-	copyRight = `CopyRight 2016 @Ally Dale. All rights reserved.
+	copyRight = `CopyRight 2021 @Ally Dale. All rights reserved.
 		Author  : Ally Dale(vipally@gmail.com)
 		Site    : https://github.com/vipally
 		Version : <version>
